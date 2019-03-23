@@ -1,0 +1,14 @@
+{
+  "name": "storie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/animify/storie.git",
+  "author": "Stefan Mansson <stefan.aotik@gmail.com>",
+  "scripts": {
+    "release": "changelog && git push --follow-tags && yarn publish --access public --non-interactive"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "changelog.md": "^1.1.0"
+  }
+}
